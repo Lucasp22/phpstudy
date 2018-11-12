@@ -1,7 +1,7 @@
 <?php
-	$user = ['name' => 'Brad', 'email' => 'test@test.com', 'age' => 35];
+	$user = ['name' => 'Tiago', 'email' => 'test@test.com', 'age' => 30];
 
-	$user = serialize($user);
+	$user = serialize($user); //for save the array in a cookie
 
 	setcookie('user', $user, time() + (86400 * 30));
 
