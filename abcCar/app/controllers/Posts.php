@@ -19,6 +19,19 @@
 
           $this->view('posts/index', $data);
         }
+
+        public function add(){
+          $data = [
+            'model' => '',
+            'price' => '',
+            'mileage' => '',
+            'engine_capacity' => '',
+            'manufacturer' => '',
+            'year' => '',
+            'body' => ''
+          ];
+          $this->view('posts/add', $data);
+        }
       }
 
       /*

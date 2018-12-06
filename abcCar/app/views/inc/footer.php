@@ -5,4 +5,5 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
 <script src="<?php echo URLROOT; ?>/js/main.js"></script>
 </body>
+© 2018 ABC CAR
 </html>
