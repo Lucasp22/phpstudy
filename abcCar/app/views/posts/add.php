@@ -15,7 +15,6 @@
 
       <div class="form-group">
         <label for="price">Price: <sup>*</sup></label>
-
         <input type="text" name="price" class="form-control form-control-lg <?php echo (!empty($data['price_err'])) ? 'is-invalid' : ''; ?>" value="<?php echo $data['price']; ?>">
         <span class="invalid-feedback"><?php echo $data['price_err']; ?></span>
       </div>
@@ -27,13 +26,14 @@
       </div>
 
       <div class="form-group">
-        <label for="engine_capacity">Engine capacity: <sup>*</sup></label>
-        <input type="text" name="engine_capacity" class="form-control form-control-lg <?php echo (!empty($data['engine_capacity_err'])) ? 'is-invalid' : ''; ?>" value="<?php echo $data['engine_capacity']; ?>">
-        <span class="invalid-feedback"><?php echo $data['engine_capacity_err']; ?></span>
+        <label for="engine">Engine capacity: <sup>*</sup></label>
+        <input type="text" name="engine" class="form-control form-control-lg <?php echo (!empty($data['engine_err'])) ? 'is-invalid' : ''; ?>" value="<?php echo $data['engine']; ?>">
+        <span class="invalid-feedback"><?php echo $data['engine_err']; ?></span>
       </div>
 
       <div class="form-group">
-        <input type="text" name="model" class="form-control form-control-lg <?php echo (!empty($data['model_err'])) ? 'is-invalid' : ''; ?>" value="<?php echo $data['model']; ?>">
+        <label for="brand">Brand: <sup>*</sup></label>
+        <input type="text" name="model" class="form-control form-control-lg <?php echo (!empty($data['brand_err'])) ? 'is-invalid' : ''; ?>" value="<?php echo $data['brand']; ?>">
         <span class="invalid-feedback"><?php echo $data['model_err']; ?></span>
       </div>
 

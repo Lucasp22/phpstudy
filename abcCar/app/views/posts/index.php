@@ -11,7 +11,7 @@
   </div>
   <?php foreach($data['posts'] as $post) : ?>
     <div class="card card-body mb-3">
-      <h4 class="card-title"><?php echo $post->manufacturer; ?> - <?php echo $post->model; ?> </h4>
+      <h4 class="card-title"><?php echo $post->brand; ?> - <?php echo $post->model; ?> </h4>
       <div class="bg-light p-2 mb-3">
         Created at: <?php echo $post->postCreated; ?>
       </div>
@@ -19,7 +19,7 @@
           Year: <?php echo $post->year; ?>
       </div>
       <div class="bg-light p-2 mb-3">
-        Engine Capacity: <?php echo $post->engine_capacity; ?>
+        Engine Capacity: <?php echo $post->engine; ?>
       </div>
       <div class="bg-light p-2 mb-3">
         Mileage: <?php echo $post->mileage; ?>

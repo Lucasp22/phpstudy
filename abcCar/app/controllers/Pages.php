@@ -4,13 +4,22 @@
 
     }
 
+
     public function index(){
+      if(isLoggedIn()){
+        redirect('posts');
+      }
+
+
+
       $data = [
-        'title' => 'ABC CAR',
+      
+        'title' => 'ABC CAR'
       ];
 
       $this->view('pages/index', $data);
     }
+
 
     public function about(){
       $data = [
@@ -19,6 +28,4 @@
 
       $this->view('pages/about', $data);
     }
-
-
   }
